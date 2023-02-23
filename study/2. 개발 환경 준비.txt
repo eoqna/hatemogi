@@ -1,0 +1,19 @@
+1. 폴더에 expo-cli 모듈을 설치해준다.
+
+npm i expo-cli
+
+2. create-expo-app으로 프로젝트를 만들어준다.
+
+npx create-expo-app AwesomeProject
+
+
+2. cd 프로젝트명으로 프로젝트 폴더로 들어간 후 npx expo start를 입력해준다.
+
+cd 프로젝트명
+
+npx expo start
+
+
+! 웹에서도 사용하고 싶다면 react-native-web과 react-dom을 설치해줘야한다.
+
+npx expo install react-native-web@~0.18.9 react-dom@18.1.0
